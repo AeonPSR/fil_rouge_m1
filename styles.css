@@ -383,18 +383,29 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .header {
+        padding: 8px 0; /* Reduced from 15px */
+    }
+    
     .header-content {
         flex-direction: column;
-        gap: 15px;
+        gap: 8px; /* Reduced from 15px */
     }
     
     .main-nav {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 5px; /* Add small gap instead of margins */
     }
     
     .nav-item {
-        margin: 5px 5px;
+        margin: 2px; /* Reduced from 5px */
+        padding: 8px 12px; /* Reduced from 12px 20px */
+        font-size: 0.9rem; /* Slightly smaller text */
+    }
+    
+    .logo img {
+        max-height: 35px; /* Reduced from 50px */
     }
     
     .hero-content {
