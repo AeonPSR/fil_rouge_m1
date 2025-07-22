@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fabrique à Savons Magiques</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="La Fabrique à Savons Magiques">
+                </div>
+                
+                <nav class="main-nav">
+                    <a href="#how-it-works" class="nav-item nav-how">Comment ça marche ?</a>
+                    <a href="#" class="nav-item nav-store">Magasin</a>
+                    <a href="#" class="nav-item nav-fans">Les savons des fans</a>
+                    <a href="#" class="nav-item nav-about">Qui sommes-nous ?</a>
+                </nav>
+                
+                <div class="header-actions">
+                    <a href="#" class="account-link">Mon compte</a>
+                    <a href="#" class="account-link">Assistance</a>
+                    <div class="cart-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 3H5L5.4 5M7 13H17L21 5H5.4M7 13L5.4 5M7 13L4.7 15.3C4.3 15.7 4.6 16.5 5.1 16.5H17M17 13V16.5M9 19.5C9.8 19.5 10.5 20.2 10.5 21S9.8 22.5 9 22.5 7.5 21.8 7.5 21 8.2 19.5 9 19.5ZM20 19.5C20.8 19.5 21.5 20.2 21.5 21S20.8 22.5 20 22.5 18.5 21.8 18.5 21 19.2 19.5 20 19.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>La Fabrique à Savons Magiques</h1>
+                    <p>La Fabrique à Savons Magiques transforme chaque après-midi en une expérience créative, ludique et sensorielle. Grâce à ce jouet conçu pour les enfants de 7 à 14 ans, créez ensemble des savons personnalisés aux couleurs vives et aux parfums enchanteurs. Facile à utiliser, sans danger et pensé pour éveiller l'imagination, cette fabrique devient vite l'activité préférée des petits... comme des grands !</p>
+                    <p class="hero-tagline">Imaginez, créez, partagez – et fabriquez avec un vrai savon magique fait maison.</p>
+                    <button class="cta-button">
+                        Achetez votre fabrique à savons magiques aujourd'hui !
+                        <span class="cursor-icon">👆</span>
+                    </button>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/hero.png" alt="La Fabrique à Savons Magiques - Boîte du produit">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="process-diagram">
+                <img src="assets/graph.png" alt="Comment ça fonctionne - Processus de création des savons">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>Des capsules pour tous les goûts !</h2>
+            
+            <div class="product-carousel">
+                <button class="carousel-nav prev" aria-label="Produits précédents">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                
+                <div class="product-grid">
+                    <!-- Product capsules -->
+                    <div class="product-item">
+                        <img src="assets/blueberry.png" alt="Capsule Myrtille">
+                    </div>
+                    <div class="product-item">
+                        <img src="assets/cookie.png" alt="Capsule Cookie">
+                    </div>
+                    <div class="product-item">
+                        <img src="assets/green.png" alt="Capsule Verte">
+                    </div>
+                    <div class="product-item">
+                        <img src="assets/pink.png" alt="Capsule Rose">
+                    </div>
+                    <div class="product-item">
+                        <img src="assets/pulse.png" alt="Capsule Pulse">
+                    </div>
+                    <div class="product-item">
+                        <img src="assets/rainbow.png" alt="Capsule Arc-en-ciel">
+                    </div>
+                    <div class="product-item">
+                        <img src="assets/soap.png" alt="Capsule Savon">
+                    </div>
+                    <div class="product-item">
+                        <img src="assets/strawberry.png" alt="Capsule Fraise">
+                    </div>
+                </div>
+                
+                <button class="carousel-nav next" aria-label="Produits suivants">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Mentions légales...</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
